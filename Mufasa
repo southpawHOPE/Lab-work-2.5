@@ -1,0 +1,201 @@
+1.
+#include <iostream> 
+using namespace std;
+int main() {
+    setlocale(LC_ALL, "Russian");
+    int K;
+	cin >> K;
+	switch (K)
+	{
+	case 1:
+		cout << "плохо";
+		break;
+	case 2:
+		cout << "неудовлетворительно";
+		break;
+	case 3:
+		cout << "удовлетворительно";
+		break;
+	case 4:
+		cout << "хорошо";
+		break;
+	case 5:
+		cout << "отлично";
+		break;
+	default:
+		cout << "ошибка";
+		break;
+
+	}
+2.
+
+#include <iostream> 
+using namespace std;
+int main() {
+    setlocale(LC_ALL, "Russian");
+    int m;
+    cin >> m;
+	switch (m)
+	{
+	case 1:
+	case 2:
+	case 12:
+		cout << "зима";
+		break;
+	case 3:
+	case 4:
+	case 5:
+		cout << "весна";
+		break;
+	case 6:
+	case 7:
+	case 8:
+		cout << "лето";
+		break;
+	case 9:
+	case 10:
+	case 11:
+		cout << "осень";
+		break;
+	default:
+		cout << "ты куда полез";
+		break;
+
+
+
+
+
+	}
+	
+
+}
+3.
+
+#include <iostream> 
+using namespace std;
+int main() {
+    setlocale(LC_ALL, "Russian");
+    int N;
+    cout << "выберете арифметическое действия" << endl << "1 - сложения" << endl << "2 - вычитание" << endl << "3 - умножение" << endl << "4 - деление" << endl;
+    cin >> N;
+    float a, b;
+    cout << "Укажите два числа" << endl;
+    cin >> a >> b;
+
+    switch (N)
+    {
+    case 1:
+        cout << a + b;
+        break;
+    case 2:
+        cout << a - b;
+        break;
+    case 3:
+        cout << a * b;
+        break;
+    case 4:
+        cout << a / b;
+        break;
+    }
+
+	
+
+}
+
+4.
+
+#include <iostream> 
+using namespace std;
+int main() {
+    setlocale(LC_ALL, "Russian");
+    int a, b;
+    cout << "выберите единицу массы" << endl;
+    cin >> a;
+    cout << "масса" << endl;
+    cin >> b;
+    switch (a)
+    {
+    case 1:
+        cout << b;
+        break;
+    case 2:
+        cout << b / 1000000;
+        break;
+    case 3:
+        cout << b / 1000;
+            break;
+    case 4:
+        cout << b * 1000;
+        break;
+    case 5:
+        cout << b * 100;
+        break;
+    }
+}
+
+
+5.
+
+#include <iostream> 
+using namespace std;
+int main() {
+    setlocale(LC_ALL, "Russian");
+    int N, M;
+    cout << "выберите масть" << endl;
+    cin >> M;
+    cout << "выберите достоинства" << endl;
+    cin >> N;
+    
+    switch (N)
+    {
+    case 6:
+        cout << "шестерка ";
+        break;
+    case 7:
+        cout << "семерка ";
+        break;
+    case 8:
+        cout << "восьмерка ";
+        break;
+    case 9:
+        cout << "девятка ";
+        break;
+    case 10:
+        cout << "десятка ";
+        break;
+    case 11:
+        cout << "валет ";
+        break;
+    case 12:
+        cout << "дама ";
+        break;
+    case 13:
+        cout << "король ";
+        break;
+    case 14: 
+        cout << "туз ";
+        break;
+    }
+    switch (M)
+    {
+    case 1:
+        cout << "пик ";
+        break;
+    case 2:
+        cout << "треф ";
+        break;
+    case 3:
+        cout << "бубен ";
+        break; 
+    case 4:
+        cout << "червей ";
+        break;
+    }
+
+
+
+
+
+
+
+}
